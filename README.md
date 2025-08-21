@@ -1,4 +1,4 @@
-ENDOINSIGHTS-MACHINE LEARNING POWERED INSIGHTS FOR  BETTER ENDOMETRIOSIS  CARE
+## **ENDOINSIGHTS-MACHINE LEARNING POWERED INSIGHTS FOR  BETTER ENDOMETRIOSIS  CARE**
 
 EndoInsights is a research project that leverages deep learning for the improved ultrasound-based diagnosis of Endometriosis.
 We use a hybrid CNN + Vision Transformer (ViT) model trained on the GLENDA dataset to classify and localize endometriosis from laparoscopic images.
@@ -25,8 +25,11 @@ Size: ~25k frames across 138 sequences
 License: CC BY-NC 4.0
  (Non-commercial use only)
 
-📑 If you use this dataset, please cite:
+## 📑 Citation
 
+If you use the GLENDA dataset, please cite:
+
+```bibtex
 @inproceedings{DBLP:conf/mmm/LeibetsederKSKK20,
     author    = {Andreas Leibetseder and
                  Sabrina Kletz and
