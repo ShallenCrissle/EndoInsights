@@ -51,7 +51,7 @@ If you use the GLENDA dataset, please cite:
 
 Clone this repository:
 
-git clone https://github.com/ShallenCrissle/EndoInsights.git
+git clone https://github.com/ShallenCrissle/EndoInsights.git  
 cd EndoInsights
 
 
@@ -67,13 +67,13 @@ pip install -r requirements.txt
 
 
 ▶️ Usage
-Training the Model
+Training the Model  
 python training.py --epochs 30 --batch-size  --data ./dataset
 
-Validating the model
+Validating the model  
 python Validation.py
 
-Running the Streamlit App
+Running the Streamlit App  
 streamlit run app.py
 
 📊 Results
