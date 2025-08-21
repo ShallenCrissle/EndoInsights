@@ -46,7 +46,7 @@ If you use the GLENDA dataset, please cite:
     year      = {2020},
     doi       = {10.1007/978-3-030-37734-2_36}
 }
-
+```
 ⚙️ Installation
 
 Clone this repository:
