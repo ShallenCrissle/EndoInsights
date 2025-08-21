@@ -57,7 +57,7 @@ cd EndoInsights
 
 Create a virtual environment (recommended):
 
-python -m venv venv
+python -m venv venv  
 venv\Scripts\activate      # Windows
 
 
