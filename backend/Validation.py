@@ -72,3 +72,17 @@ cm = confusion_matrix(all_labels, all_preds)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=list(idx_to_class.values()))
 disp.plot(cmap=plt.cm.Blues)
 plt.show()
+from sklearn.metrics import precision_score, recall_score, f1_score, classification_report
+
+# Precision, Recall, F1-score
+precision = precision_score(all_labels, all_preds, average='weighted')
+recall = recall_score(all_labels, all_preds, average='weighted')
+f1 = f1_score(all_labels, all_preds, average='weighted')
+
+print(f"\nPrecision: {precision:.4f}")
+print(f"Recall: {recall:.4f}")
+print(f"F1 Score: {f1:.4f}")
+
+# Classification Report
+print("\nClassification Report:")
+print(classification_report(all_labels, all_preds, target_names=list(idx_to_class.values())))

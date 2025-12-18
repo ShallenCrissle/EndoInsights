@@ -1,0 +1,37 @@
+# Datasets
+endo_dataset/
+dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Model files
+model/
+*.pth
+*.pt
+
+# Secrets & documents
+.env
+SYNOPSIS.pdf

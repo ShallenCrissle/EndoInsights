@@ -82,7 +82,9 @@ def estimate_severity(confidence, salient_area, total_area):
     """
     Calculate severity score as a function of confidence and salient area ratio.
     """
-    return confidence * (salient_area / total_area)
+    severity = confidence * (salient_area / total_area)
+    return severity * 100 
+    # return confidence * (salient_area / total_area)
 
 # Image Transform (for app)
 val_transforms = transforms.Compose([
